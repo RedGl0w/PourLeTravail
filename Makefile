@@ -5,6 +5,8 @@ apps_src += $(addprefix apps/pourletravail/,\
   app.cpp \
   PasswordController.cpp \
   PasswordView.cpp \
+  GaleryController.cpp \
+  GaleryView.cpp \
 )
 
 app_images += apps/pourletravail/PourLeTravail_icon.png
