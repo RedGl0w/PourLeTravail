@@ -9,10 +9,10 @@ apps_src += $(addprefix apps/pourletravail/,\
   GaleryView.cpp \
 )
 
-app_images += apps/pourletravail/PourLeTravail_icon.png
-
 i18n_files += $(addprefix apps/pourletravail/,\
 	base.universal.i18n\
 )
 
 $(eval $(call depends_on_image,apps/pourletravail/app.cpp,apps/pourletravail/PourLeTravail_icon.png))
+
+$(eval $(call depends_on_image,apps/pourletravail/GaleryView.cpp,apps/pourletravail/PourLeTravail_image.png))

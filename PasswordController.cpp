@@ -27,7 +27,7 @@ bool PasswordController::handleEvent(Ion::Events::Event event) {
   }
   #if 0
   #ifndef NDEBUG
-  #error Can't build this debug part without DEBUG=1
+  #error Can t build this debug part without DEBUG=1
   #endif
   for(int i = 0; i < PASSWORD_SIZE; i++){
     const char * text = Ion::Events::s_nameForEvent[(uint8_t) m_eventHistoy[i]];
