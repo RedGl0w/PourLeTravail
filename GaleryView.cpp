@@ -20,7 +20,7 @@ View * GaleryView::subviewAtIndex(int index) {
 }
 
 void GaleryView::layoutSubviews(bool force) {
-  m_image.setFrame(KDRect(0,0,58,56), force);
+  m_image.setFrame(KDRect(50,0,58,56), force); // Set to x y width height of your image
 }
 
 }

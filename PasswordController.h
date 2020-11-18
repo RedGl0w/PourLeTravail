@@ -22,7 +22,7 @@ private:
 
 constexpr static Ion::Events::Event k_password[PASSWORD_SIZE] = {
   Ion::Events::Up, Ion::Events::Up, Ion::Events::Down, Ion::Events::Down, Ion::Events::Left, Ion::Events::Right, Ion::Events::Left, Ion::Events::Right, Ion::Events::Back, Ion::Events::OK,
-};
+}; // Change it to your password
 
 }
 

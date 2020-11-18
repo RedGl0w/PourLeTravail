@@ -9,9 +9,9 @@ namespace PourLeTravail {
 
 PasswordController::PasswordController(Responder * parentResponder) :
   ViewController(parentResponder),
-  m_controller(parentResponder),
-  m_eventHistoy({Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None,Ion::Events::None})
+  m_controller(parentResponder)
 {
+  memset(&m_eventHistoy[0], 0, PASSWORD_SIZE);
 }
 
 View * PasswordController::view() {
